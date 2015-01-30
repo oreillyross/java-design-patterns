@@ -2,6 +2,7 @@
 A working example of most of the GoF design patterns in Java
 
 Strategy Pattern
+</hr>
 
 The Design Patterns authors define the Strategy pattern as:
 
