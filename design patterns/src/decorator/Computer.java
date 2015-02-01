@@ -6,8 +6,8 @@ public class Computer {
 	  
   }
 	
-  public void description() {
-	System.out.println("computer");
+  public String description() {
+	return "computer";
 
   }
 		  
