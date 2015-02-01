@@ -11,7 +11,7 @@ public class Disk extends ComponentDecorator {
 	@Override
 	public String description() {
 		
-		return computer.description() + " and a disk";
+		return computer.description() + " with a disk";
 	}
   
 }
