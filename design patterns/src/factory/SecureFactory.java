@@ -8,7 +8,8 @@ public class SecureFactory extends ConnectioFactory {
       return new SecureOracleConnection();
     else if (type.equals("SQL Server") 
       return new SQLServerConnection();
-// TODO add the third kind of connection
+    else if (type.equals("MySQL") 
+      return new SecureMySqlConnection();	    
 
   }
 

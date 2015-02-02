@@ -1,5 +1,6 @@
 package factory;
 
+
 public abstract class Connection {
 
 	
