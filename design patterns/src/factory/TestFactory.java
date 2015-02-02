@@ -7,8 +7,9 @@ public class TestFactory {
     SecureFactory securefactory;
 
     securefactory = new SecureFactory();
-
-    Connection     
+    Connection connection = securefactory.createConnection("MySQL");
+    System.out.println(connection.description());
+        
   }
 
 

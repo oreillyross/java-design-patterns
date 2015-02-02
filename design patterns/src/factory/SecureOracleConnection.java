@@ -1,8 +1,8 @@
 package factory;
 
-public class SecureOracleconnection extends Connection {
+public class SecureOracleConnection extends Connection {
   
-  public SecureOracleconnection() {
+  public SecureOracleConnection() {
   
   }	  
 
