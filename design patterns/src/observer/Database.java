@@ -39,11 +39,18 @@ public class Database implements Subject {
 	 * 
 	 */
 	@Override
-	public void notifyObservers(Observer o) {
+	public void notifyObservers() {
 		for (Observer ob : observers) {
 			ob.update(operation, record);
 		}
 
+	}
+	
+	public void editRecord(String operation, String record) {
+		this.operation = operation;
+		this.record = record;
+		notifyObservers();
+		
 	}
 
 
