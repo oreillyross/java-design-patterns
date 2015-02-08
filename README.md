@@ -17,3 +17,13 @@ Decorators decorate an object by enhancing (or in some cases restricting) its fu
 
 Taken from http://www.javaworld.com/article/2075920/core-java/decorate-your-java-code.html
 
+<b> Chain of responsibility pattern </b>
+
+You use this pattern when not all your observers are created equal. For exam-
+ple, say that you have a layered application with a set chain of command for
+events — a mouse event may originate in a particular control, then bubble up
+to the control’s container, then the container’s window, and eventually up to
+the application itself. The first object that can handle the event correctly
+should grab it and stop the event from further bubbling.
+In other words, if you want to process your notifications using a hierarchical
+chain of objects, this is your pattern.
