@@ -1,7 +1,7 @@
 # Design-Patterns
 A working example of most of the GoF design patterns in Java
 
-Strategy Pattern
+<b> Strategy Pattern </b>
 </hr>
 
 The Design Patterns authors define the Strategy pattern as:
@@ -11,7 +11,7 @@ The Strategy pattern lets you build software as a loosely coupled collection of 
 
 Taken from http://www.javaworld.com/article/2074195/swing-gui-programming/strategy-for-success.html
 
-Decorator Pattern
+<b> Decorator Pattern </b>
 
 Decorators decorate an object by enhancing (or in some cases restricting) its functionality. Those objects are referred to as decorated. Decorators extend the decorated class (or implement the decorated interface), which lets decorators masquerade as the objects they decorate. They also maintain a reference to a Decorated instance. That instance is the object that the decorator decorates.
 
