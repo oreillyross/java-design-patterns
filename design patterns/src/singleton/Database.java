@@ -9,5 +9,13 @@ public class Database {
 		this.name = name;
 		record = 0;
 	}
-
+  public void editRecord(String operation) {
+	System.out.println("Performing a " + operation + " operation" +
+    " on record " + record + " in " + name + " database");
+}
+  
+  public String getName() {
+	  return name;
+  }
+  
 }
