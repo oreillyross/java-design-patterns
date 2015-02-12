@@ -1,5 +1,7 @@
 package singleton;
 
+// TODO - see handling threading better in Design patterns book
+
 public class TestSingletonSynchronized implements Runnable {
 
 	Thread thread;
