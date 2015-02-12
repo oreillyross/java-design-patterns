@@ -19,7 +19,7 @@ public class Database {
 	  return name;
   }
   
-  public static Database getInstance(String name) {
+  public static synchronized  Database getInstance(String name) {
 	if (singleobject == null) {
 		singleobject = new Database(name);
 	}
