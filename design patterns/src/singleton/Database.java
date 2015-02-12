@@ -2,6 +2,7 @@ package singleton;
 
 public class Database {
 
+	private static Database singleobject;
 	private int record;
 	private String name;
 	
@@ -17,5 +18,13 @@ public class Database {
   public String getName() {
 	  return name;
   }
+  
+  public static Database createDatabase(String name) {
+	if (singleobject == null) {
+		singleobject = new Database(name);
+	}
+	  return singleobject;
+	
+}
   
 }
