@@ -20,8 +20,9 @@ public class TestSingletonSynchronized implements Runnable {
 
 	@Override
 	public void run() {
-		// TODO Auto-generated method stub
+		Database db = Database.getInstance("employees");
 		
+		System.out.println("This is the " + db.getName() + " database");
 	}
 
 }
