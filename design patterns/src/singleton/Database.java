@@ -2,7 +2,7 @@ package singleton;
 
 public class Database {
 
-	private static Database singleobject;
+	private static Database singleobject = new Database("products");
 	private int record;
 	private String name;
 	
@@ -20,9 +20,7 @@ public class Database {
   }
   
   public static synchronized  Database getInstance(String name) {
-	if (singleobject == null) {
-		singleobject = new Database(name);
-	}
+	
 	  return singleobject;
 	
 }
