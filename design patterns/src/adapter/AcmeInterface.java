@@ -1,0 +1,10 @@
+package adapter;
+
+public interface AcmeInterface {
+  
+	public void setFirstName(String f);
+	public void setLastName(String l);
+	public void getFirstName();
+	public void getLastName();
+	
+}
