@@ -27,3 +27,12 @@ the application itself. The first object that can handle the event correctly
 should grab it and stop the event from further bubbling.
 In other words, if you want to process your notifications using a hierarchical
 chain of objects, this is your pattern.
+
+<b> Adapter Pattern </b>
+
+An adapter uses composition to store the
+object it’s supposed to adapt, and when the adapter’s methods are called, it
+translates those calls into something the adapted object can understand and
+passes the calls on to the adapted object. The code that calls the adapter
+never needs to know that it’s not dealing with the kind of object it thinks it is,
+but an adapted object instead.
