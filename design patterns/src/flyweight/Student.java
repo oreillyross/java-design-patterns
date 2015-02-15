@@ -7,9 +7,15 @@ public class Student {
 	int id;
 	int score;
 	double averageScore;
+	private static Student student = new Student();
 	
-	public Student (double a) {
-		averageScore = a;
+	private Student() {
+		
+	}
+
+	
+	public static Student getInstance() {
+		return student;
 	}
 
 	public String getName() {
