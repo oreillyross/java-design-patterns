@@ -37,7 +37,7 @@ public class Student {
 	}
 	
 	public double getStanding() {
-		return averageScore;
+		return ((double) score / averageScore - 1.0) * 100.00;
 		
 	}
 }
