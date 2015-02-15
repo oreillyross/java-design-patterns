@@ -14,13 +14,13 @@ public class AceToAcmeAdapter implements AcmeInterface {
 	
 	@Override
 	public void setFirstName(String f) {
-		firstname = f
+		firstname = f;
 		
 	}
 
 	@Override
 	public void setLastName(String l) {
-		lastname = l
+		lastname = l;
 		
 	}
 
