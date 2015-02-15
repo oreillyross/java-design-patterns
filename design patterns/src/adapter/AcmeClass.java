@@ -16,12 +16,12 @@ public class AcmeClass implements AcmeInterface {
 	}
 
 	@Override
-	public void getFirstName() {
+	public String getFirstName() {
 		return firstName;
 	}
 
 	@Override
-	public void getLastName() {
+	public String getLastName() {
 		return lastName;
 	}
 
