@@ -2,6 +2,13 @@ package template;
 
 public class AutomotiveRobot extends RobotTemplate {
 	
+	
+	
+	public AutomotiveRobot(String name) {
+		super(name);
+		
+	}
+
 	@Override
 	public void getParts() {
 		System.out.println("Getting a carburetor....");

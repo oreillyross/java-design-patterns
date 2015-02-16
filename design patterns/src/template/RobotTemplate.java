@@ -2,6 +2,12 @@ package template;
 
 public abstract class RobotTemplate {
 
+	private String name;
+	
+	public RobotTemplate(String name) {
+		this.name = name; 
+	}
+	
 	public final void go() {
 		start();
 		getParts();
@@ -32,6 +38,10 @@ public abstract class RobotTemplate {
 	public void start() {
 		System.out.println("Starting... ");
 
+	}
+	
+	public String getName() {
+		return name;
 	}
 
 }
