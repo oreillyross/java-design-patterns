@@ -11,25 +11,25 @@ public abstract class RobotTemplate {
 
 	}
 
-	private void stop() {
+	public void stop() {
 		System.out.println("Stopping... ");
 
 	}
 
-	private void test() {
+	public void test() {
 		System.out.println("Testing.... ");
 	}
 
-	private void assemble() {
+	public void assemble() {
 		System.out.println("Assembling... ");
 	}
 
-	private void getParts() {
+	public void getParts() {
 		System.out.println("Getting parts... ");
 
 	}
 
-	private void start() {
+	public void start() {
 		System.out.println("Starting... ");
 
 	}
