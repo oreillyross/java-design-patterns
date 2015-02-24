@@ -1,6 +1,9 @@
 # Design-Patterns
-A working example of most of the GoF design patterns in Java
+The following repository contains a java implementation of the GoF design patterns. The examples were taken from the following book.
+<div>
+ <a href= "http://www.amazon.com/Design-Patterns-Dummies-Steve-Holzner/dp/0471798541"> Design Patterns for Dummies by Steve Holzner, PhD</a> 
 
+</div>
 <b> Strategy Pattern </b>
 </hr>
 
