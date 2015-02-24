@@ -4,6 +4,7 @@ The following repository contains a java implementation of the GoF design patter
  <a href= "http://www.amazon.com/Design-Patterns-Dummies-Steve-Holzner/dp/0471798541"> Design Patterns for Dummies by Steve Holzner, PhD</a> 
 
 </div>
+
 <b> Strategy Pattern </b>
 </hr>
 
