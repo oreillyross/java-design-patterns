@@ -2,7 +2,6 @@ package chainofresponsibility;
 
 /**
  * 
- * @author rreily1978
  *  
  *  The Chain of Responsibility design pattern at work. Want to
  *  handle notifications in a loosely coupled way, but also have a definite chain
@@ -13,7 +12,6 @@ package chainofresponsibility;
 public class TestHelp {
 
 	/**
-	 * @param args
 	 */
 	public static void main(String[] args) {
 		

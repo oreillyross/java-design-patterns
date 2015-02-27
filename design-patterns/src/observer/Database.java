@@ -6,7 +6,6 @@ package observer;
 import java.util.Vector;
 
 /**
- * @author Ross
  * 
  * To keep track of the observers use of a Vector is instantiated in the constructor. 
  *
@@ -33,7 +32,6 @@ public class Database implements Subject {
 	}
 
 	/**
-	 * @see observer.Subject#notifyObservers(observer.Observer)
 	 * 
 	 * The single update method of each observer is called here passing the DB operation and record being updated 
 	 * 
