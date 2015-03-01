@@ -1,5 +1,12 @@
 package adapter;
 
+/**
+ * <h1> Adapter pattern </h1>
+ * <p>
+ * Acme objects are based on the Acme class, which implements the AcmeInterface. 
+ * <p>
+ * The Acme objects store the name as first and last name.
+ */
 public class AcmeClass implements AcmeInterface {
 
     String firstName;

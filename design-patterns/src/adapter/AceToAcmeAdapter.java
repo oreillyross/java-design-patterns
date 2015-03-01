@@ -1,5 +1,15 @@
 package adapter;
 
+/**
+ * <h1> Adapter pattern - The actual adapter </h1>
+ * <p>
+ * 
+ * The adapter lets you plug Ace objects (from the user end) into the Acme back end. To adapt Ace to Acme objects 
+ * the name is split with the Ace object passed in the constructor.
+ * <p>
+ * To mimic an Acme object the adaptor implements the {@link AcmeINterface}
+ *
+ */
 public class AceToAcmeAdapter implements AcmeInterface {
 
 	AceClass aceobject;
