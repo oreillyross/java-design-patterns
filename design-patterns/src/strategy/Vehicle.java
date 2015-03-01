@@ -9,6 +9,11 @@ public abstract class Vehicle {
 		
 	}
 	
+	/**
+	 * when you want to use a particular algorithm in a derived class, all
+     * you’ve got to do is to call the setGoAlgorithm method with the correct
+     * algorithm object
+	 */
 	public void setGoalgorithm(GoAlgorithm goalgorithm) {
 		this.goalgorithm = goalgorithm;
 	}
