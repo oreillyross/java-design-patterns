@@ -3,9 +3,10 @@ package adapter;
 /** 
  * <h1> Adapter pattern </h1>
  *
- * The Adapter is known as a structural pattern, as it's used to identifying a simple way to realize relationships between entities.
+ * The Adapter is known as a structural pattern, as it's used to identifying a simple way to realize relationships 
+ * between entities.
  *
- * {@code AceToAcmeAdapter }
+ * 
  *
  */
 
