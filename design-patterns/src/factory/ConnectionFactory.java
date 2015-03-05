@@ -1,5 +1,10 @@
 package factory;
 
+/**
+ * This is the factory class which is abstract. Forces subclass factories (more specialised) to implment the <code>
+ * createConnection </code> method
+ *
+ */
 public abstract class ConnectionFactory {
 
 	public ConnectionFactory() {
