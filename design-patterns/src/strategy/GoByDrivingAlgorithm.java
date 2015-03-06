@@ -3,7 +3,7 @@ package strategy;
 /**
  * <h1> Strategy pattern </h1>
  * <p>
- *
+ * 
  */
 public class GoByDrivingAlgorithm implements GoAlgorithm {
 

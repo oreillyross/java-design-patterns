@@ -8,7 +8,7 @@ public class Computer {
 	/**
 	 * 
 	 * When a new computer object is created, its description method returns
-     * the text You’re getting a computer.
+     * the text computer.
      * <p>
 	 * @see decorator.ComponentDecorator#description()
 	 */
