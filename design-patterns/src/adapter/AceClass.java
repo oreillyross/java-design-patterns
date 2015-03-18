@@ -1,5 +1,13 @@
 package adapter;
 
+/**
+ *
+ * <h1> Adapter pattern </h1>
+ *
+ * 
+ *  
+ */
+
 public class AceClass implements AceInterface {
 
 	String name;

@@ -1,18 +1,36 @@
 package adapter;
 
 /** 
- * <h1> Adapter pattern </h1>
+ * <h1> Adapter pattern - This is the test class for the pattern </h1>
  *
  * The Adapter is known as a structural pattern, as it's used to identifying a simple way to realize relationships between entities.
+ * <p>
+ * Uses for Adapter pattern
  *
- * {@code AceToAcmeAdapter }
+ * <hr>
+ * <ul>
+ * <li> You want to use an existing class, and its interface does not match the one you need
+ * <li> You want to create a reusable class that cooperates with unrelated classes with incompatible interfaces
+ * </ul>
  *
- */
+  */
 
 public class TestAdapter {
+      
 
+      /** <p>
+ 
+	 *  <em> AceClass</em> is instantiated - this is the legacy code or class to be adapted
+	 *  <em> aceObject.setName</em> method sets the name (legacy code)
+	 *  <p>
+	 *  An <em> AceToAcmeAdapter</em> object is costructed passing in an instance of the legacy object
+	 *  This results in being able to call the new methods of class acting as adapter - <em> AceToAcmeAdapter </em>   
+
+       *  @param args This entry method ignores the command line arguments passed in as args
+       *
+       */	
       public static void main(String[] args) {
-        AceClass aceObject = new AceClass();
+       	AceClass aceObject = new AceClass();
         aceObject.setName("Carey Grant");
       
         AceToAcmeAdapter acetoacmeadapter = new AceToAcmeAdapter(aceObject);
