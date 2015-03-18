@@ -16,7 +16,7 @@ public class FrontEnd implements Help {
 	/** 
 	 * The front end can only handle help requests about the front end, which 
      * uses the constant FRONT_END_HELP. If the constant passed to the FrontEnd
-     * object’s getHelp method is not FRONT_END_HELP, it should pass the help
+     * objects getHelp method is not FRONT_END_HELP, it should pass the help
      * request to the next object in the chain; otherwise, it knows it can handle
      * this help request and will display a help message
 	 * 

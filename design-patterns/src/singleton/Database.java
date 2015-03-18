@@ -4,14 +4,14 @@ package singleton;
  * <h1> Singleton pattern </h1>
  * <p>
  * This class has the pattern applied. The key aspects include
- * <li> making the default constructor private
- * <li> Creating the instance at time of declaring the variable scope
- * <li> having synchronized method to <code> getInstance() </code>
+ *  1. making the default constructor private
+ *  2. creating the instance at time of declaring the variable scope
+ *  3. having synchronized method to <code> getInstance() </code>
  */
 public class Database {
 
 	/**
-	 * You’ve removed all the overhead involved with synchronizing code just by taking the object-creation code out of the
+	 * Youve removed all the overhead involved with synchronizing code just by taking the object-creation code out of the
      * getInstance method.
 	 */
 	private static Database singleobject = new Database("products");

@@ -15,12 +15,13 @@ public class CD extends ComponentDecorator {
 	 * @param c stores a reference to the original computer object which is being decorated (or extended)
 	 */
 	public CD(Computer c) {
-		computer = c;	}
+		computer = c;
+	}
 	
 	/**
 	 * @see decorator.ComponentDecorator#description()
 	 * 
-	 * @return "and a CD " to the return value from the wrapped object’s description method
+	 * @return "and a CD " to the return value from the wrapped objects description method
 	 * 
 	 */
 	@Override

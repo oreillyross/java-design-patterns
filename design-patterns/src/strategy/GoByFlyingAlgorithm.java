@@ -10,7 +10,7 @@ public class GoByFlyingAlgorithm implements GoAlgorithm {
 	/** 
 	 * @see strategy.GoAlgorithm#go()
 	 * 
-	 * The GoByFlying algorithm, on the other hand, displays Now I’m flying.
+	 * The GoByFlying algorithm, on the other hand, displays Now Im flying.
 	 * 
 	 */
 	@Override
