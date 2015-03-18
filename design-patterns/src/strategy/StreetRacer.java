@@ -9,7 +9,9 @@ public class StreetRacer extends Vehicle {
 	
 	/**
 	 *  set the correct algorithm in the constructor. This allows one to create a concrete class and inject behaviour into the class. The 
-	 *  setGoalgorithm() method is inherited from the Vehicle class
+	 *  setGoalgorithm() method is inherited from the Vehicle class.
+	 *
+	 *  To change a StreetRacers behaviour at runtime just call the setGoalgorithm(GoAlgorithm goalgorithm) method.
 	 *
 	 */
 	public StreetRacer() {
