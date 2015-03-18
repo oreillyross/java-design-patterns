@@ -1,5 +1,9 @@
 package singleton;
 
+/**
+ * This tests the singleton pattern as non-threaded
+ *
+ */
 public class TestSingleton {
 
 	public static void main(String[] args) {
