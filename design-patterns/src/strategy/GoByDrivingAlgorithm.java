@@ -1,7 +1,7 @@
 package strategy;
 
 /**
- * <h1> Strategy pattern </h1>
+ * <h1> This concrete class implements the go() behaviour of GoAlgorithm interface  </h1>
  * <p>
  * This class forms part of the GoAlgorithm behaviours. The idea is that you seperate the behaviour from the Vehicle and can then 
  * polymorphically add a sub-classed concrete behaviour 

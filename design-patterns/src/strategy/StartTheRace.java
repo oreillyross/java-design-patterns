@@ -2,7 +2,7 @@ package strategy;
 
 
 /**
- * <h1> Strategy pattern </h1>
+ * <h1> Strategy pattern - definition </h1>
  *
  * The strategy pattern defines a family of algorithms, encapsulates each one,
  * and makes them interchangeable.

@@ -1,7 +1,7 @@
 package strategy;
 
 /**
- * <h1> Strategy pattern </h1>
+ * <h1>This concrete class implements the go() method inherited from GoAlgorithm interface  </h1>
  * <p>
  *
  */

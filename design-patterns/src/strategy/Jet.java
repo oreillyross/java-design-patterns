@@ -1,5 +1,11 @@
 package strategy;
 
+/**
+ * <h1> This class forms part of the Vehicle - subtype of Vehicle </h1>
+ * The Jet class extends the Vehicle abstract class. The behaviour is injected into the class by using the setGoalgorithm() method. this
+ * method is called in the constructor.
+ */
+
 public class Jet extends Vehicle {
 
 	/**

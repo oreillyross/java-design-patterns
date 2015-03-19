@@ -1,5 +1,10 @@
 package strategy;
 
+/**
+ * <h1> This abstract class defines the parts of the Vehicle which do not change (i.e. everything except behaviour) </h1>
+ * <p>
+ */
+
 public abstract class Vehicle {
   
 	

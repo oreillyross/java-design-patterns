@@ -1,7 +1,7 @@
 package strategy;
 
 /**
- * <h1> Strategy pattern </h1>
+ * <h1> This interface forms part of the Go behaviour separated out from Vehicle class </h1>
  * <p>
  * The GoAlgorithm interface has one method: go. To make sure any algorithm
 *  can be used by any Vehicle, all algorithms should implement this

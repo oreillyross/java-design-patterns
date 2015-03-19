@@ -1,9 +1,9 @@
 package strategy;
 
 /**
- * <h1> Strategy pattern </h1>
- * This class is a specialised vehicle. It extends only the Vehcile class along with its aspects that don't change. 
- *
+ * <h1> This class forms part of the Vehicle - subtype of Vehicle </h1>
+ * The StreetRacer class extends the Vehicle abstract class. The behaviour is injected into the class by using the setGoalgorithm() method. this
+ * method is called in the constructor.
  */
 public class StreetRacer extends Vehicle {
 	
