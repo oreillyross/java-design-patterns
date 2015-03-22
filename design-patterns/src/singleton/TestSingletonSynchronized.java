@@ -9,7 +9,7 @@ package singleton;
  * <p>
  * You use the Singleton design pattern when you want to either restrict
  * resource use (instead of creating numbers of large objects without limit) or
- * when you have a sensitive object whose data shouldn’t be accessed by multiple
+ * when you have a sensitive object whose data shouldnt be accessed by multiple
  * instances (such as a registry).
  *
  */

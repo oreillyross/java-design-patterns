@@ -6,7 +6,7 @@ package decorator;
  * The decorator pattern applies the following OOD principle quite nicely.
  * <p>
  * As much as possible, make your code closed for modification, but open for
- * extension. In other words, design your core code so that it doesn’t have to be
+ * extension. In other words, design your core code so that it doesnt have to be
  * modified a lot, but may be extended as needed.
  * <p>
  * it allows you to augment or extend a class dynamically at runtime

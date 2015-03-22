@@ -17,7 +17,7 @@ public class IntermediateLayer implements Help {
 	/** 
      * The intermediate layer, class IntermediateLayer, can handle help requests
      * corresponding to the INTERMEDIATE_LAYER_HELP constant. If it gets passed
-     * that constant in the getHelp method, it displays a help message — otherwise,
+     * that constant in the getHelp method, it displays a help message  otherwise,
      * it passes the help request on to the next object in the chain.
 	
 	 * @see chainofresponsibility.Help#getHelp(int)

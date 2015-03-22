@@ -1,7 +1,7 @@
 package strategy;
 
 /**
- * <h1> Strategy pattern </h1>
+ * <h1> This concrete class implements the go() behaviour of GoAlgorithm interface</h1>
  * <p>
  *
  */
@@ -10,7 +10,7 @@ public class GoByFlyingFast implements GoAlgorithm {
 	/** 
 	 * @see strategy.GoAlgorithm#go()
 	 * 
-	 * And the GoByFlyingFast algorithm, used by jets, displays Now I’m flying fast.
+	 * And the GoByFlyingFast algorithm, used by jets, displays Now Im flying fast.
 	 */
 	@Override
 	public void go() {

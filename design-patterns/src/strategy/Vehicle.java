@@ -1,8 +1,17 @@
 package strategy;
 
+/**
+ * <h1> This abstract class defines the parts of the Vehicle which do not change (i.e. everything except behaviour) </h1>
+ * <p>
+ */
+
 public abstract class Vehicle {
   
 	
+	/**
+	 * The abstract Vehicle class stores a private instance of the GoAlgorithm interface (this encapsualtes the behaviour)
+	 * 
+	 */
 	private GoAlgorithm goalgorithm;
 	
 	public Vehicle() {
@@ -11,17 +20,23 @@ public abstract class Vehicle {
 	
 	/**
 	 * when you want to use a particular algorithm in a derived class, all
-     * you’ve got to do is to call the setGoAlgorithm method with the correct
-     * algorithm object
+         * youve got to do is to call the setGoAlgorithm method with the correct
+         * algorithm object
 	 */
+
 	public void setGoalgorithm(GoAlgorithm goalgorithm) {
 		this.goalgorithm = goalgorithm;
 	}
   
-    // calling this method from subclasses means the correct 
-	// algorithm is called despite it being extracted out
-	// of the working part of the subclass or super class Vehicle
+       /** 
+	* Calling this method from subclasses means the correct 
+	* algorithm is called despite it being extracted out
+	* of the working part of the subclass or super class Vehicle
+	* 
+	*/
+
 	public void go() {
-    	goalgorithm.go();
+
+	  goalgorithm.go();
     }
 }

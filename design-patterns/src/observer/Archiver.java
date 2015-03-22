@@ -1,5 +1,8 @@
 package observer;
 
+/**
+ * <h1> Concrete class implements observer methods </h1>
+ * 
 public class Archiver implements Observer {
 
 	public Archiver() {
