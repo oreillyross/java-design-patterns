@@ -4,7 +4,8 @@ package observer;
  * <h1> Observer pattern definition </h1>
  * <p>
  * defines a one to many dependency between objects so that when one object changes state,
- * all of its dependents are notified and updated automatically
+ * all of its dependents are notified and updated automatically. Interestingly the reactive programming model employs a 
+ * more nuanced (updated) version of the observer pattern.
  *
  */
 

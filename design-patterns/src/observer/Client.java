@@ -1,5 +1,9 @@
 package observer;
 
+/**
+ * <h1> </h1>
+ *
+ */
 public class Client implements Observer {
 
 	public Client() {
