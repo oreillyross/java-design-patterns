@@ -6,7 +6,7 @@ package observer;
 import java.util.Vector;
 
 /**
- *  <h1> This is the concrete class which implements the {@link Subject.class} </h1>
+ *  <h1> This is the concrete class which implements the {@link observer.Subject} </h1>
  *  <p>
  *  
  * 

@@ -1,13 +1,28 @@
 package facade;
 
+/**
+ * <h1> This class is the heart of the facade pattern </h1>
+ *
+ * 
+ */
 public class SimpleProductFacade {
 
+	/**
+	 * The class needs to store a reference to the complicated class (third party library) which it needs to wrap essentially
+	 */
 	DifficultProduct difficultProduct;
 
+	/**
+	 * The constructor simply creates a new instance of the complicated class {@link DifficultProduct}. In a real world example you may simply need to pass a reference to the object. 
+	 */
 	public SimpleProductFacade() {
 		difficultProduct = new DifficultProduct();
 	}
 
+	/**
+	 * This method is one of the (potentially many) methods which simplifies the 7 setFirstNameCharacter() methods 
+	 * @param n By passing in a string the method then references the chars and calls each {@link DifficultProduct} method
+	 */
 	public void setName(String n) {
 		char chars[] = n.toCharArray();
 		if (chars.length > 0) {

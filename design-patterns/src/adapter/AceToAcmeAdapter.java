@@ -1,7 +1,7 @@
 package adapter;
 
 /**
- * <h1> Adapter pattern - The actual adapter </h1>
+ * <h1> This is the actual adapter </h1>
  * <p>
  * 
  * The adapter lets you plug Ace objects (from the user end) into the Acme back end. To adapt Ace to Acme objects 
@@ -26,7 +26,7 @@ public class AceToAcmeAdapter implements AcmeInterface {
 	public AceToAcmeAdapter(AceClass a) {
 	  aceobject = a;
 	  firstname = aceobject.getName().split(" ")[0];
-      lastname = aceobject.getName().split(" ")[1];
+          lastname = aceobject.getName().split(" ")[1];
 	}
 	
 	@Override

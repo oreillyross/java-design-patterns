@@ -2,7 +2,7 @@ package observer;
 
 /**
  * <h1> This is a concrete class which implements the Observer interface </h1>
- * <p>
+ * 
  */
 
 public class Boss implements Observer {

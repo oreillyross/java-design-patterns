@@ -1,5 +1,12 @@
 package facade;
 
+/**
+ *
+ * <h1> This would be the third party library which needs a simpler interface (or facade) </h1>
+ * <p>
+ * It has an exagerated number of methods which each need to be called to set the characters of the name. And a single get method to return the name as a string
+ *
+ */
 public class DifficultProduct {
 
 	char nameChars[] = new char[7];
