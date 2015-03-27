@@ -31,8 +31,8 @@ public class TestAdapter {
 	 *  <p>
 	 *  An <em> AceToAcmeAdapter</em> object is costructed passing in an instance of the legacy object
 	 *  This results in being able to call the new methods of the class acting as an adapter - <em> AceToAcmeAdapter </em>   
-       *
-       */	
+         * @param args not used
+         */	
       public static void main(String[] args) {
        	AceClass aceObject = new AceClass();
         aceObject.setName("Carey Grant");

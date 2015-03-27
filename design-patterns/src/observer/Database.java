@@ -7,7 +7,7 @@ import java.util.Vector;
 
 /**
  *  <h1> This is the concrete class which implements the {@link observer.Subject} </h1>
- *  <p>
+ * 
  *  
  * 
  *

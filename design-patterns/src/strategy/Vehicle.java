@@ -2,7 +2,7 @@ package strategy;
 
 /**
  * <h1> This abstract class defines the parts of the Vehicle which do not change (i.e. everything except behaviour) </h1>
- * <p>
+ * 
  */
 
 public abstract class Vehicle {
@@ -22,6 +22,7 @@ public abstract class Vehicle {
 	 * when you want to use a particular algorithm in a derived class, all
          * youve got to do is to call the setGoAlgorithm method with the correct
          * algorithm object
+	 * @param goalgorithm pass in the type of algorithm to apply to the vehicle
 	 */
 
 	public void setGoalgorithm(GoAlgorithm goalgorithm) {

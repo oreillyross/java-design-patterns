@@ -4,9 +4,11 @@ package singleton;
  * <h1> Singleton pattern </h1>
  * <p>
  * This class has the pattern applied. The key aspects include
- * <li> making the default constructor private
+ * <ol>
+ * <li> making the default constructor private </li>
  * <li> creating the instance at time of declaring the variable scope
  * <li> having a synchronized method to {@link #getInstance(String name) }
+ * </ol>
  */
 public class Database {
 

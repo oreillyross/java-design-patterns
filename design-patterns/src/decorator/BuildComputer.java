@@ -19,7 +19,7 @@ public class BuildComputer {
 	 * starts by creating a computer.
 	 * the code wraps that computer in a wrapper that adds a hard disk.
 	 * 
-	 * @param args
+	 * @param args this is not used
 	 */
 	public static void main(String[] args) {
 		Computer computer = new Computer();

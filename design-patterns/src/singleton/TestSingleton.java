@@ -9,16 +9,18 @@ package singleton;
  * <p>
  * USAGE 
  * <hr>
+ * <ol>
  * <li> Logging or configuration files
- * 
+ * </ol>
  *
  */
 public class TestSingleton {
 
         /**
 	 * This tests the non-synchronized version of the pattern
+	 * @param args this is not used
 	 */
-	
+         	
 	public static void main(String[] args) {
 		Database database;
 		

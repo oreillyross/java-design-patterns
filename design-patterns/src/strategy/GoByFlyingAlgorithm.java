@@ -2,7 +2,7 @@ package strategy;
 
 /**
  * <h1>This concrete class implements the go() method inherited from GoAlgorithm interface  </h1>
- * <p>
+ * 
  *
  */
 public class GoByFlyingAlgorithm implements GoAlgorithm {

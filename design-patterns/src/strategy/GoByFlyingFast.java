@@ -2,7 +2,7 @@ package strategy;
 
 /**
  * <h1> This concrete class implements the go() behaviour of GoAlgorithm interface</h1>
- * <p>
+ * 
  *
  */
 public class GoByFlyingFast implements GoAlgorithm {
