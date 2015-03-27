@@ -11,6 +11,7 @@ public class Computer {
      * the text computer.
      * 
      * @see decorator.ComponentDecorator#description()
+     * @return returns the description of the object as a string
      */
 	
   public String description() {
