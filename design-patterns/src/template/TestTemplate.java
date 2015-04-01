@@ -3,8 +3,10 @@ package template;
 
 /**
  * <h1> Template pattern - definition </h1>
- * A template method defines an algorithm in a base class using abstract operations 
- * that subclasses override to provide concrete behavior.
+ * Template Method will “Define the skeleton of an algorithm in an operation, deferring some
+ * steps to subclasses. Template Method lets subclasses redefine certain steps
+ * of an algorithm without changing the algorithm’s structure.”
+ * <p>
  * USAGE
  * <hr>
  * The Template Method pattern should be used:
